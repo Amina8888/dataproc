@@ -16,4 +16,4 @@
   #   args: ['cp', '-r', 'gs://your-bucket/updated-file.txt', '/workspace/path/to/file']
   #   dir: '/workspace'
   - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['cp', '-r', 'https://source.cloud.google.com/artful-fragment-380106/github_amina8888_dataproc/+/main:main.py', 'gs://dataproc-repo-bucket/test.py']
+    args: ['cp', 'https://source.cloud.google.com/artful-fragment-380106/github_amina8888_dataproc/+/main:main.py', 'gs://dataproc-repo-bucket/test.py']
